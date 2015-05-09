@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="prefects">Σε Περιφερειάρχη</entry>
+	<entry key="stateCouncil">Σε ΣΤΕ</entry>
+	<entry key="comments">Παρατηρήσεις</entry>
+	<entry key="lawyer">Δικηγόρος</entry>
+</properties>

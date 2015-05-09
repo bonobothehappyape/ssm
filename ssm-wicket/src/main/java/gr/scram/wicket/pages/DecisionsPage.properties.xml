@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="page-title">Αποφάσεις</entry>
+	<entry key="ministry">Υπουργείο</entry>
+	<entry key="envelopeNumber">Αριθμός Φακέλου</entry>
+	<entry key="workPermission">'Αδεια Λειτουργίας</entry>
+	<entry key="lastApprovedPlans">Τελευταία Εγκρ. Σχεδ.</entry>
+	<entry key="page-title">Αποφάσεις</entry>
+
+	<entry key="newEnvelopeNumber">Αριθμός Φακέλου</entry>
+	<entry key="newSuitability">Καταλληλότητα</entry>
+	<entry key="newWorkPermission">'Αδεια Λειτουργίας</entry>
+	<entry key="newEstablishLicense">'Αδεια 'Ιδρυσης</entry>
+	<entry key="electricCerticifate">Βεβαίωση Ηλεκτρολόγου</entry>
+
+	<entry key="fireStudyApproval">'Εγκριση Μελέτης</entry>
+	<entry key="fireStudyModification">Τροποποίηση Μελέτης</entry>
+	<entry key="fireStudyCertificate">Πιστοποιητικό</entry>
+	<entry key="fireRenewal">Ανανέωση</entry>
+	<entry key="fireUpdate">Ενημέρωση πριν την λήξη</entry>
+
+	<entry key="envMPE">Μ.Π.Ε</entry>
+	<entry key="envRenewal">Ανανέωση</entry>
+	<entry key="envUpdate">Ενημέρωση πριν την λήξη</entry>
+
+</properties>

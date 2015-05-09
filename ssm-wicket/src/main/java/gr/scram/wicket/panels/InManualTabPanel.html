@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<wicket:panel>
+	<div>
+		<form wicket:id="form">
+			<div>
+				<table>
+					<tr>
+						<td>
+							<table>
+								<tbody>
+									<tr>
+										<!--  έλεγχος χρησεων γης -->
+										<td><label for="procedureManualEmbedded.landUsage"><wicket:message
+													key="procedureManualEmbedded.landUsage" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.landUsage" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.landUsageCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Αυτοψία - Σύνταξη Τοπογραφικού -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.autopsyTopographic"><wicket:message
+													key="procedureManualEmbedded.autopsyTopographic" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.autopsyTopographic"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.autopsyTopographicCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Υπογραφή Δηλώσεων - Ανάθεση Μελέτης -->
+									<tr>
+										<td><label for="procedureManualEmbedded.signDeclaration"><wicket:message
+													key="procedureManualEmbedded.signDeclaration" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.signDeclaration"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.signDeclarationCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Κατάθεση Καταλληλότητας -->
+									<tr>
+										<td><label for="procedureManualEmbedded.suitability"><wicket:message
+													key="procedureManualEmbedded.suitability" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitability" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Παραλαβή χρήσεων γής -->
+									<tr>
+										<td><label for="procedureManualEmbedded.landUsageReceipt"><wicket:message
+													key="procedureManualEmbedded.landUsageReceipt" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.landUsageReceipt"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.landUsageReceiptCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Αίτηση Απότμησης Πεζοδρομίου -->
+									<tr>
+										<td><label for="sidewalk"><wicket:message
+													key="sidewalk" /></label></td>
+										<td><span><input wicket:id="sidewalk" type="text" /></span></td>
+										<td><span><input wicket:id="sidewalkCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="sidewalkReceipt"><wicket:message
+													key="sidewalkReceipt" /></label></td>
+										<td><span><input wicket:id="sidewalkReceipt"
+												type="text" /></span></td>
+										<td><span><input wicket:id="sidewalkReceiptCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Παραλαβή Απότμησης Πεζοδρομίου -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.circulation2Deposit"><wicket:message
+													key="procedureManualEmbedded.circulation2Deposit" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulation2Deposit"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulation2DepositCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.circulation2Decision"><wicket:message
+													key="procedureManualEmbedded.circulation2Decision" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulation2Decision"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulation2DecisionCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="procedureManualEmbedded.mpeDeposit"><wicket:message
+													key="procedureManualEmbedded.mpeDeposit" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.mpeDeposit" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.mpeDepositCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="procedureManualEmbedded.mpeDecision"><wicket:message
+													key="procedureManualEmbedded.mpeDecision" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.mpeDecision" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.mpeDecisionCheck"
+												type="checkbox" /></span></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+
+						<td><span>&nbsp;</span></td>
+						<td><span>&nbsp;</span></td>
+						<td>
+							<table>
+								<tbody>
+									<!-- 								Σύνταξη Μελετών -->
+									<tr>
+										<td><label for="procedureManualEmbedded.studies"><wicket:message
+													key="procedureManualEmbedded.studies" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.studies" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.studiesCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.circulationDeposit"><wicket:message
+													key="procedureManualEmbedded.circulationDeposit" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationDeposit"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationDepositCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Αυτοψία για κυκλοφοριακή σύνδεση -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.circulationAutopsy"><wicket:message
+													key="procedureManualEmbedded.circulationAutopsy" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationAutopsy"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationAutopsyCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.circulationDecision"><wicket:message
+													key="procedureManualEmbedded.circulationDecision" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationDecision"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.circulationDecisionCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Κατάθεση Καταλληλότητας -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.suitabilityApplication"><wicket:message
+													key="procedureManualEmbedded.suitabilityApplication" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityApplication"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityApplicationCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Αυτοψία Καταλληλότητας -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.suitabilityAutopsy"><wicket:message
+													key="procedureManualEmbedded.suitabilityAutopsy" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityAutopsy"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityAutopsyCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<!-- 									Απόφαση Καταλληλότητας -->
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.suitabilityDecision"><wicket:message
+													key="procedureManualEmbedded.suitabilityDecision" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityDecision"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.suitabilityDecisionCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label
+											for="procedureManualEmbedded.establishLicenceDeposit"><wicket:message
+													key="procedureManualEmbedded.establishLicenceDeposit" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.establishLicenceDeposit"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.establishLicenceDepositCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="procedureManualEmbedded.establishLicence"><wicket:message
+													key="procedureManualEmbedded.establishLicence" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.establishLicence"
+												type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.establishLicenceCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireCertificate"><wicket:message
+													key="fireCertificate" /></label></td>
+										<td><span><input wicket:id="fireCertificate"
+												type="text" /></span></td>
+										<td><span><input wicket:id="fireCertificateCheck"
+												type="checkbox" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="procedureManualEmbedded.tax"><wicket:message
+													key="procedureManualEmbedded.tax" /></label></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.tax" type="text" /></span></td>
+										<td><span><input
+												wicket:id="procedureManualEmbedded.taxCheck" type="checkbox" /></span></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+
+					</tr>
+				</table>
+			</div>
+			<div class="controls">
+				<input type="submit" class="btn btn-success" wicket:id="closeOK"
+					value="Save and Close"></input>
+			</div>
+		</form>
+	</div>
+</wicket:panel>
+</html>
+

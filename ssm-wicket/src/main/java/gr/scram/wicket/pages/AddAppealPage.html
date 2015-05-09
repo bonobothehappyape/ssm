@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<wicket:head>
+	<wicket:link>
+		<link rel="stylesheet" type="text/css"
+			href="bootstrap/css/bootstrap.css" media="screen" />
+	</wicket:link>
+	<wicket:link>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</wicket:link>
+</wicket:head>
+</head>
+<body>
+	<fieldset>
+	<form wicket:id="app-form">
+			<table>
+				<tr>
+					<td><label for="prefects"><wicket:message
+								key="prefects"></wicket:message></label></td>
+					<td><input wicket:id="prefects" type="text"></input></td>
+				</tr>
+				<tr>
+					<td><label for="stateCouncil"><wicket:message
+								key="stateCouncil"></wicket:message></label></td>
+					<td><input wicket:id="stateCouncil" type="text"></input></td>
+				</tr>
+				<tr>
+					<td><label for="comments"><wicket:message
+								key="comments"></wicket:message></label></td>
+					<td><textarea wicket:id="comments" ></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="lawyer"><wicket:message key="lawyer"></wicket:message></label></td>
+					<td><select wicket:id="lawyer" ></select></td>
+				</tr>
+				<tr>
+					<td><input type="submit" class='btn btn-success' wicket:id="closeOK" value="Αποθήκευση"></input></td>
+					<td><a class='btn btn-warning' wicket:id="closeCancel">Ακύρωση</a></td>				
+				</tr>
+			</table>
+	</form>
+	</fieldset>
+</body>
+</html>
+

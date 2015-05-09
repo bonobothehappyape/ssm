@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<wicket:extend>
+	<body>
+		<div>
+			<form wicket:id="form">
+				<table>
+					<thead>
+						<tr>
+							<th><span wicket:id="page-title">[page-title]</span></th>
+						</tr>
+					</thead>
+					<tr>
+						<td><label for="name"><wicket:message key="name"></wicket:message></label><input
+							wicket:id="name" type="text"></input></td>
+					</tr>
+					<tr>
+						<td><label for="addressInfo.addressStreet"><wicket:message
+									key="addressInfo.addressStreet"></wicket:message></label><input
+							wicket:id="addressInfo.addressStreet" type="text"></input></td>
+						<td><label for="addressInfo.addressNo"><wicket:message
+									key="addressInfo.addressNo"></wicket:message></label><input
+							wicket:id="addressInfo.addressNo" type="text" size="5"></input></td>
+					</tr>
+					<tr>
+						<td><label for="addressInfo.municipality"><wicket:message
+									key="addressInfo.municipality"></wicket:message></label><select
+							wicket:id="addressInfo.municipality" /></td>
+					</tr>
+					<tr>
+						<td><label for="addressInfo.poCode"><wicket:message
+									key="addressInfo.poCode"></wicket:message></label><input
+							wicket:id="addressInfo.poCode" type="text"></input></td>
+						<td><label for="contactInfo.email"><wicket:message
+									key="contactInfo.email"></wicket:message></label><input
+							wicket:id="contactInfo.email" type="text"></input></td>
+					</tr>
+					<tr>
+						<td><label for="contactInfo.tel1"><wicket:message
+									key="contactInfo.tel1"></wicket:message></label><input
+							wicket:id="contactInfo.tel1" type="text"></input></td>
+						<td><label for="contactInfo.tel2"><wicket:message
+									key="contactInfo.tel2"></wicket:message></label><input
+							wicket:id="contactInfo.tel2" type="text"></input></td>
+					</tr>
+					<tr>
+						<td><label for="contactInfo.fax"><wicket:message
+									key="contactInfo.fax"></wicket:message></label><input
+							wicket:id="contactInfo.fax" type="text"></input></td>
+						<td><label for="contactInfo.url"><wicket:message
+									key="contactInfo.url"></wicket:message></label><input
+							wicket:id="contactInfo.url" type="text"></input></td>
+					</tr>
+				</table>
+				<p>
+					<input type="submit" class="btn btn-success" wicket:id="closeOK"
+						value="Save and Close"></input>
+				</p>
+			</form>
+		</div>
+	</body>
+</wicket:extend>
+</html>

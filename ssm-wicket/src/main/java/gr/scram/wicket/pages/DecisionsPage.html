@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<wicket:extend>
+	<div>
+		<form wicket:id="form">
+			<fieldset>
+				<table>
+					<thead>
+						<tr>
+							<th><span id='page-title' wicket:id="page-title">[page-title]</span></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td><label for="ministry"><wicket:message
+													key="ministry" /></label></td>
+										<td><span><select wicket:id="ministry" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="envelopeNumber"><wicket:message
+													key="envelopeNumber" /></label></td>
+										<td><span><input wicket:id="envelopeNumber"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="workPermission"><wicket:message
+													key="workPermission" /></label></td>
+										<td><span><input wicket:id="workPermission"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="lastApprovedPlans"><wicket:message
+													key="lastApprovedPlans" /></label></td>
+										<td><span><input wicket:id="lastApprovedPlans"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="newEnvelopeNumber"><wicket:message
+													key="newEnvelopeNumber" /></label></td>
+										<td><span><input wicket:id="newEnvelopeNumber"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="newSuitability"><wicket:message
+													key="newSuitability" /></label></td>
+										<td><span><input wicket:id="newSuitability"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="newEstablishLicense"><wicket:message
+													key="newEstablishLicense" /></label></td>
+										<td><span><input wicket:id="newEstablishLicense"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="newWorkPermission"><wicket:message
+													key="newWorkPermission" /></label></td>
+										<td><span><input wicket:id="newWorkPermission"
+												type="text" /></span></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+
+									<tr>
+										<td><label for="electricCerticifate"><wicket:message
+													key="electricCerticifate" /></label></td>
+										<td><span><input wicket:id="electricCerticifate"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireStudyApproval"><wicket:message
+													key="fireStudyApproval" /></label></td>
+										<td><span><input wicket:id="fireStudyApproval"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireStudyModification"><wicket:message
+													key="fireStudyModification" /></label></td>
+										<td><span><input wicket:id="fireStudyModification"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireStudyCertificate"><wicket:message
+													key="fireStudyCertificate" /></label></td>
+										<td><span><input wicket:id="fireStudyCertificate"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireUpdate"><wicket:message
+													key="fireUpdate" /></label></td>
+										<td><span><input wicket:id="fireUpdate"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="fireRenewal"><wicket:message
+													key="fireRenewal" /></label></td>
+										<td><span><input wicket:id="fireRenewal"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="envMPE"><wicket:message
+													key="envMPE" /></label></td>
+										<td><span><input wicket:id="envMPE" type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="envUpdate"><wicket:message
+													key="envUpdate" /></label></td>
+										<td><span><input wicket:id="envUpdate" type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="envRenewal"><wicket:message
+													key="envRenewal" /></label></td>
+										<td><span><input wicket:id="envRenewal"
+												type="text" /></span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+					<input type="submit" class="btn btn-success" wicket:id="closeOK" value="Αποθήκευση"></input>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+</wicket:extend>
+</html>

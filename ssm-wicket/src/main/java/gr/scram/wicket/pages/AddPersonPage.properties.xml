@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="actions">Επιλογές</entry>
+	<entry key="addressInfo.addressStreet">Οδός</entry>
+	<entry key="addressInfo.municipality">Δήμος</entry>
+	<entry key="name">'Ονομα</entry>
+	<entry key="surname">Επίθετο</entry>
+	<entry key="addressInfo.addressNo">Αριθμός</entry>
+	<entry key="addressInfo.poCode">Τ.Κ.</entry>
+	<entry key="contactInfo.email">email</entry>
+	<entry key="contactInfo.tel1">Τηλέφωνο</entry>
+	<entry key="contactInfo.tel2">Τηλέφωνο 2</entry>
+	<entry key="contactInfo.fax">Fax</entry>
+	<entry key="contactInfo.url">Web site</entry>
+	<entry key="page-title">Στοιχεία</entry>
+	
+	<entry key="connection-processing-tab-panel">Κυκλοφοριακή σύνδεση</entry>
+	<entry key="admin-processing-tab-panel">Admin processing</entry>
+</properties>

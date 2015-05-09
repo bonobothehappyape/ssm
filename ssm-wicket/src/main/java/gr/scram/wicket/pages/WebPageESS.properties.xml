@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="label.application.title">SSM</entry>
+	<entry key="submit-link-label">Submission</entry>
+	<entry key="please-wait">Please Wait...</entry>
+	<entry key="label.help">Help</entry>
+	<entry key="nullValid">[Select]</entry>
+	<entry key="list-projects">Project List</entry>
+	<entry key="actions">Επιλογές</entry>
+	<entry key="name-table-column-label">Ονομασία</entry>
+	<entry key="code-table-column-label">Κωδικός</entry>
+	
+	
+</properties>

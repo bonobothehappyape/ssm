@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title><wicket:message key="label.application.title" /></title>
+<wicket:head>
+	<wicket:link>
+		<link rel="stylesheet" type="text/css"
+			href="bootstrap/css/bootstrap.css" media="screen" />
+	</wicket:link>
+	<wicket:link>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	</wicket:link>
+</wicket:head>
+</head>
+<body>
+	<div class="container">
+		<div class="masthead">
+			<h3 class="muted">ESS Eng. Software</h3>
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<div wicket:id="headerPanel"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div wicket:id="feedback"></div>
+		<div>
+			<wicket:child></wicket:child>
+		</div>
+		<div class="footer">
+			<div wicket:id="footerPanel"></div>
+		</div>
+	</div>
+</body>
+</html>
+

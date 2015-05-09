@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<wicket:head>
+	<wicket:link>
+		<link rel="stylesheet" type="text/css"
+			href="../bootstrap/css/bootstrap.css" media="screen" />
+	</wicket:link>
+	<wicket:link>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+	</wicket:link>
+</wicket:head>
+</head>
+<body>
+	<form wicket:id="form">
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Δήμοι</th>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+					</tr>
+				</thead>
+				<tr>
+					<td><label for="name"><wicket:message
+								key="name"></wicket:message></label></td>
+					<td><input wicket:id="name" type="text"></input></td>
+				</tr>
+				<tr>
+					<td><label for="code"><wicket:message
+								key="code"></wicket:message></label></td>
+					<td><input wicket:id="code" type="text"></input></td>
+				</tr>
+			</table>
+		</div>
+		<div class="controls">
+			<input type="submit" class="btn btn-success" wicket:id="closeOK"
+				value="Save and Close"></input> <a class="btn btn-warning"
+				wicket:id="closeCancel">Cancel and Close</a>
+		</div>
+	</form>
+</body>
+</html>
+

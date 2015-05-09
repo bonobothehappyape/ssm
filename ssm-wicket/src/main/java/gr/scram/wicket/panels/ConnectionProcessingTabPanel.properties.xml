@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="preApprovalApplication">Αίτηση Προέγκρισης Κόμβου</entry>
+	<entry key="preApprovalAutopsy">Αυτοψία Προέγκρισης Κόμβου</entry>
+	<entry key="preApprovalDecision">Απόφαση Προέγκρισης Κόμβου</entry>
+	<entry key="approvalApplication">Αίτηση Έγκρισης Κόμβου</entry>
+	<entry key="approvalDecision">Απόφαση Έγκρισης Κόμβου</entry>
+	<entry key="consensusApplication">Αίτηση Συναίνεσης</entry>
+	<entry key="consensusAutopsy">Αυτοψία Συναίνεσης</entry>
+	<entry key="decision">Απόφαση</entry>
+	
+	<entry key="townshipApplication">Αίτηση σε Δήμο</entry>
+	<entry key="townshipDecision">Απόφαση Δήμου</entry>
+	
+	<entry key="approvalApplication2">Αίτηση Έγκρισηε Κόμβου</entry>
+	<entry key="approvalAutopsy2">Αυτοψία Έγκρισης Κόμβου</entry>
+	<entry key="approvalDecision2">Απόφαση 'Εγκρισης Κόμβου</entry>
+	
+</properties>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="type">Είδος</entry>
+	<entry key="size">Μέγεθος</entry>
+	<entry key="system">Σύστημα</entry>
+	<entry key="usefulArea">Ωφέλιμη Επιφάνεια</entry>
+	<entry key="usefulAreaM2">m2</entry>
+	<entry key="parkingPositions">Θέσεις Στάθμευσης</entry>
+	<entry key="floor">Επικοινωνία Ορόφων</entry>
+	<entry key="floorsOver">Όροφοι υπέργειοι</entry>
+	<entry key="floorsUnder">Όροφοι υπόγειοι</entry>
+	<entry key="dieselTotal">Σύνολο 'Ογκου Diesel</entry>
+	<entry key="comments">Παρατηρήσεις</entry>
+	<entry key="pumps">Αντλίες</entry>
+	<entry key="laundry">Πλυντήριο</entry>
+	<entry key="lubrication">Λιπαντήριο</entry>
+</properties>

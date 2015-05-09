@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="edit-link">Επεξεργασία</entry>
+	<entry key="delete-link">Διαγραφή</entry>
+</properties>

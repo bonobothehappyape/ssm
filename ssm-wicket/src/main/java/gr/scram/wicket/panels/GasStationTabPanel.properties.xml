@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="unleadeGas">Unleaded</entry>
+	<entry key="superGas">Super</entry>
+	<entry key="lpg">Πρατήριο LPG</entry>
+	<entry key="unleadedSuperPlusGas">Unleaded Super Plus</entry>
+	<entry key="dieselVehicle">Diesel Κίνησης</entry>
+	<entry key="dieselHeating">Diesel Θέρμανσης</entry>
+	<entry key="gasTankTotal">Σύνολο 'Ογκου Βενζινών</entry>
+	<entry key="dieselTotal">Σύνολο 'Ογκου Diesel</entry>
+	<entry key="comments">Παρατηρήσεις</entry>
+	
+	<entry key="certifiedPumps.single">Μονές</entry>
+	<entry key="certifiedPumps.singleNo">Αριθμός</entry>
+	<entry key="certifiedPumps.simpleTwin">Απλές Δίδυμες</entry>
+	<entry key="certifiedPumps.simpleTwinNo">Αριθμός</entry>
+	<entry key="certifiedPumps.simpleTriplet">Απλες Τρίδυμες</entry>
+	<entry key="certifiedPumps.simpleTripletNo">Αριθμός</entry>
+	<entry key="certifiedPumps.doubleTwin">Διπλές Δίδυμες</entry>
+	<entry key="certifiedPumps.doubleTwinNo">Αριθμός</entry>
+	<entry key="certifiedPumps.doubleTriplet">Διπλές Τρίδυμες</entry>
+	<entry key="certifiedPumps.doubleTripletNo">Αριθμός</entry>
+	<entry key="certifiedPumps.hasCarLubrication">Λιπαντήριο</entry>
+	<entry key="certifiedPumps.carLubricationComments">Παρατηρήσεις</entry>
+	<entry key="certifiedPumps.hasCarLaundry">Πλυντήριο</entry>
+	<entry key="certifiedPumps.carLaundryComments">Παρατηρήσεις</entry>
+	
+	
+</properties>

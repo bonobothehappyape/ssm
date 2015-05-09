@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="procedureManualEmbedded.landUsage">'Ελεγχος χρήσεων γής</entry>
+	<entry key="procedureManualEmbedded.autopsyTopographic">Αυτοψία - Σύνταξη Τοπογραφικού</entry>
+	<entry key="procedureManualEmbedded.signDeclaration">Υπογραφή Δηλώσεων - Ανάθεση Μελέτης</entry>
+	<entry key="procedureManualEmbedded.suitability">Κατάθεση Καταλληλότητας</entry>
+	<entry key="procedureManualEmbedded.landUsageReceipt">Παραλαβή χρήσεων γής</entry>
+	<entry key="procedureManualEmbedded.studies">Σύνταξη Μελετών</entry>
+	<entry key="procedureManualEmbedded.suitabilityApplication">Κατάθεση Καταλληλότητας</entry>
+	<entry key="procedureManualEmbedded.suitabilityAutopsy">Αυτοψία Καταλληλότητας</entry>
+	<entry key="procedureManualEmbedded.suitabilityDecision">Απόφαση Καταλληλότητας</entry>
+	<entry key="procedureManualEmbedded.circulationDeposit">Κατάθεση Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="procedureManualEmbedded.circulationAutopsy">Αυτοψία Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="procedureManualEmbedded.circulationDecision">'Εγκριση Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="procedureManualEmbedded.circulation2Deposit">Αίτηση Συναίνεσης Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="procedureManualEmbedded.circulation2Decision">Απόφαση Συναίνεσης Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="procedureManualEmbedded.establishLicence">'Aδεια ίδρυσης</entry>
+	<entry key="procedureManualEmbedded.establishLicenceDeposit">Κατάθεση άδειας ίδρυσης</entry>
+	<entry key="procedureManualEmbedded.mpeDeposit">Κατάθεση ΜΠΕ</entry>
+	<entry key="procedureManualEmbedded.mpeDecision">Απόφαση ΜΠΕ</entry>
+	<entry key="procedureManualEmbedded.tax">Φορολογικά</entry>
+	<entry key="sidewalk">Αίτηση Απότμησης Πεζοδρομίου</entry>
+	<entry key="sidewalkReceipt">Παραλαβή Απότμησης Πεζοδρομίου</entry>
+	<entry key="circulationAutopsy">Αυτοψία Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="circulationApplication">Κατάθεση Κυκλοφοριακής Σύνδεσης</entry>
+	<entry key="circulationAutopsyDecision">'Εγκριση Κυκλοφοριακής Σύνδεσης</entry>	
+	<entry key="fireCertificate">Πιστοποιητικό Πυρασφάλειας</entry>	
+
+</properties>

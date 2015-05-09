@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="suitabilityApplication">Αίτηση Καταλληλότητας</entry>
+	<entry key="autopsy">Αυτοψία</entry>
+	<entry key="suitabilityAdoption">Έγκριση Καταλληλότητας</entry>
+	
+	<entry key="establishLicenceApplication">Αίτηση άδειας ίδρυσης</entry>
+	<entry key="establishLicenceDecision">Unleaded</entry>
+	<entry key="tax">Φορολογικά</entry>
+	<entry key="decisionEstablishDecision">Απόφαση Άδειας Ίδρυσης</entry>
+	<entry key="operationApplicationStart">Αίτηση Άδειας Λείτουργίας</entry>
+	<entry key="operationDecisionStart">Απόφαση Άδειας Λειτουργίας</entry>
+	
+	<entry key="blueprintApplication">Αίτηση Έγκρισης Σχεδιαγράμματος</entry>
+	<entry key="tax2">Φορολογικά</entry>
+	<entry key="blueprintDecision">Απόφαση Έγκρισης Σχεδιαγράμματος</entry>
+	
+	<entry key="operationApplicationEnd">Αίτηση Άδειας Λειτουργίας</entry>
+	<entry key="operationDecisionEnd">Απόφαση Άδειας Λειτουργίας</entry>
+	<entry key="comments">Παρατηρήσεις</entry>
+	
+</properties>

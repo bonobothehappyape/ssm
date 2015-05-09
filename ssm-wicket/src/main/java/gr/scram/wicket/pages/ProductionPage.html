@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<wicket:extend>
+	<div>
+		<form wicket:id="form">
+			<fieldset>
+				<table>
+					<thead>
+						<tr>
+							<th><span id='page-title' wicket:id="page-title">[page-title]</span></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><table>
+									<tr>
+										<td><label for="assignment"><wicket:message
+													key="assignment" /></label></td>
+										<td><span><input wicket:id="assignment"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="autopsyDeadline"><wicket:message
+													key="autopsyDeadline" /></label></td>
+										<td><span><input wicket:id="autopsyDeadline"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="autopsyExec"><wicket:message
+													key="autopsyExec" /></label></td>
+										<td><span><input wicket:id="autopsyExec"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="designDesigner"><wicket:message
+													key="designDesigner" /></label></td>
+										<td><span><select wicket:id="designDesigner" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="designCharge"><wicket:message
+													key="designCharge" /></label></td>
+										<td><span><input wicket:id="designCharge"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="designDeadline"><wicket:message
+													key="designDeadline" /></label></td>
+										<td><span><input wicket:id="designDeadline"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="designExec"><wicket:message
+													key="designExec" /></label></td>
+										<td><span><input wicket:id="designExec"
+												type="text" /></span></td>
+									</tr>
+								</table></td>
+							<td><table>
+
+									<tr>
+										<td><label for="techTechnician"><wicket:message
+													key="techTechnician" /></label></td>
+										<td><span><select wicket:id="techTechnician" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="techCharge"><wicket:message
+													key="techCharge" /></label></td>
+										<td><span><input wicket:id="techCharge"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="techDeadline"><wicket:message
+													key="techDeadline" /></label></td>
+										<td><span><input wicket:id="techDeadline"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="techExec"><wicket:message
+													key="techExec" /></label></td>
+										<td><span><input wicket:id="techExec" type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="secretariatTechnician"><wicket:message
+													key="secretariatTechnician" /></label></td>
+										<td><span><select
+												wicket:id="secretariatTechnician" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="secretariatCharge"><wicket:message
+													key="secretariatCharge" /></label></td>
+										<td><span><input wicket:id="secretariatCharge"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="secretariatDeadline"><wicket:message
+													key="secretariatDeadline" /></label></td>
+										<td><span><input wicket:id="secretariatDeadline"
+												type="text" /></span></td>
+									</tr>
+									<tr>
+										<td><label for="secretariatExec"><wicket:message
+													key="secretariatExec" /></label></td>
+										<td><span><input wicket:id="secretariatExec"
+												type="text" /></span></td>
+
+									</tr>
+								</table></td>
+						</tr>
+					</tbody>
+				</table>
+				<p>
+					<input type="submit" class="btn btn-success" wicket:id="closeOK" value="Αποθήκευση"></input>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+</wicket:extend>
+</html>

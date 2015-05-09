@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<body>
+	<wicket:panel>
+		<div>
+			<fieldset>
+				<div wicket:id="cFeedback" />
+				<form wicket:id="form">
+					<table>
+						<tr>
+							<td><label for="permitRecall"><wicket:message
+										key="permitRecall" /></label></td>
+							<td><span><input wicket:id="permitRecall" type="text" /></span></td>
+							<td><label for="recallGov"><wicket:message
+										key="recallGov" /></label></td>
+							<td><span><input wicket:id="recallGov" type="text" /></span></td>
+
+						</tr>
+						<tr>
+							<td><label for="permitDate"><wicket:message
+										key="permitDate" /></label></td>
+							<td><span><input wicket:id="permitDate" type="text" /></span></td>
+							<td><label for="sealInstallation"><wicket:message
+										key="sealInstallation" /></label></td>
+							<td><span><input wicket:id="sealInstallation"
+									type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="sealGov"><wicket:message
+										key="sealGov" /></label></td>
+							<td><span><input wicket:id="sealGov" type="text" /></span></td>
+							<td><label for="sealDate"><wicket:message
+										key="sealDate" /></label></td>
+							<td><span><input wicket:id="sealDate" type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><span><input class="btn btn-success"
+									type="submit" wicket:id="closeOK" value="Αποθήκευση"></input></span></td>
+						</tr>
+					</table>
+				</form>
+			</fieldset>
+		</div>
+		<div>&nbsp;</div>
+		<div>
+			<fieldset>
+				<table class="table table-hover table-bordered" wicket:id="appeals"></table>
+				<span><a class="btn btn-small btn-info"
+					wicket:id="add-appeal">Προσφυγή</a></span>
+			</fieldset>
+		</div>
+		<div wicket:id="modal1"></div>
+	</wicket:panel>
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="projects-top-menu">Projects</entry>
+	<entry key="contacts-top-menu">Contacts</entry>
+	<entry key="admin-top-menu">Administration</entry>
+	<entry key="dashboard-top-menu">Dashboard</entry>
+	<entry key="invoices-top-menu">Invoices</entry>
+	<entry key="amendment-top-menu">Amendment</entry>
+	<entry key="milestones-top-menu">Milestones</entry>
+</properties>

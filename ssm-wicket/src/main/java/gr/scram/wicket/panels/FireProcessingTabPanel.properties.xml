@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="studyApplication">Αίτηση Μελέτης:</entry>
+	<entry key="studyDecision">'Εγκριση Μελέτης:</entry>
+	<entry key="studyChangeApplication">Αίτηση Τροποποίησης Μελέτης:</entry>
+	<entry key="certificateApplication">Αίτηση  πιστοποιητικού:</entry>
+	<entry key="studyPerson">Αρμόδιος Υπάλληλος:</entry>
+	<entry key="autopsy">Αυτοψία:</entry>
+	<entry key="autopsyPerson">Αρμόδιος Υπάλληλος:</entry>
+	<entry key="certificateGrant">Χορήγηση Πιστοποιητικού:</entry>
+	<entry key="comments">Παρατηρήσεις:</entry>
+</properties>

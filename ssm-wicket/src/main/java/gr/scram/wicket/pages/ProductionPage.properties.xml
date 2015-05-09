@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="page-title">Παραγωγή</entry>
+	<entry key="assignment">Ανάθεση</entry>
+	<entry key="autopsyDeadline">Προθεσμία Αυτοψίας</entry>
+	<entry key="autopsyExec">Προθεσμία Αυτοψίας</entry>
+	
+	<entry key="designDesigner">Σχεδιαστής</entry>
+	<entry key="designCharge">Χρέωση Σχεδιαστηρίου</entry>
+	<entry key="designDeadline">Προθεσμία</entry>
+	<entry key="designExec">Εκτέλεση</entry>
+	
+	<entry key="techTechnician">Τεχνικός</entry>
+	<entry key="techCharge">Χρέωση</entry>
+	<entry key="techDeadline">Προθεσμία</entry>
+	<entry key="techExec">Εκτέλεση Αυτοψίας</entry>
+	
+	<entry key="secretariatTechnician">Γραμματέας</entry>
+	<entry key="secretariatCharge">Χρέωση</entry>
+	<entry key="secretariatExec">Προθεσμία</entry>
+	<entry key="secretariatDeadline">Εκτέλεση</entry>
+</properties>

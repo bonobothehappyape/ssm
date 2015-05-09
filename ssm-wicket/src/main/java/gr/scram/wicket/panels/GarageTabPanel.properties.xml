@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="specialty">Ειδικότητα</entry>
+	<entry key="machinery">Μηχανολογικός Εξοπλισμός</entry>
+	<entry key="mainArea">Κύρια επιφάνεια</entry>
+	<entry key="mainAreaΜ2">m2</entry>
+	<entry key="helpArea">Βοηθητικοί Χώροι:</entry>
+	<entry key="power">Συνολική Ισχύς:</entry>
+	<entry key="powerHp">hp</entry>
+	<entry key="comments">Παρατηρήσεις</entry>
+</properties>

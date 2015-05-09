@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<body>
+	<wicket:panel>
+		<div>
+			<div wicket:id="cFeedback" />
+			<fieldset>
+				<form wicket:id="form">
+					<table>
+						<tr>
+							<td><label for="envApplication"><wicket:message
+										key="envApplication" /></label></td>
+							<td><span><input wicket:id="envApplication"
+									type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="envAutopsy"><wicket:message
+										key="envAutopsy" /></label></td>
+							<td><span><input wicket:id="envAutopsy"
+									type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="envApproval"><wicket:message
+										key="envApproval" /></label></td>
+							<td><span><input wicket:id="envApproval"
+									type="text" /></span></td>
+						</tr>
+					</table>
+				</form>
+			</fieldset>
+			<p>
+				<input type="submit" wicket:id="closeOK" value="Αποθήκευση"></input>
+			</p>
+		</div>
+	</wicket:panel>
+</body>
+</html>
+

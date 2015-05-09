@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<body>
+	<wicket:panel>
+		<div>
+			<form wicket:id="form">
+				<div wicket:id="cFeedback" />
+				<fieldset>
+					<table>
+						<tr>
+							<td><label for="type"><wicket:message key="type" /></label></td>
+							<td><span><select wicket:id="type" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="size"><wicket:message key="size" /></label></td>
+							<td><span><select wicket:id="size" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="usefulArea"><wicket:message
+										key="usefulArea" /></label></td>
+							<td><span><input wicket:id="usefulArea" type="text" /> <wicket:message
+										key="usefulAreaM2" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="parkingPositions"><wicket:message
+										key="parkingPositions" /></label></td>
+							<td><span><input wicket:id="parkingPositions"
+									type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="floorsOver"><wicket:message
+										key="floorsOver" /></label></td>
+							<td><span><input wicket:id="floorsOver" type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="floorsUnder"><wicket:message
+										key="floorsUnder" /></label></td>
+							<td><span><input wicket:id="floorsUnder" type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="system"><wicket:message key="system" /></label></td>
+							<td><span><select wicket:id="system" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="floor"><wicket:message key="floor" /></label></td>
+							<td><span><select wicket:id="floor" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="comments"><wicket:message key="comments" /></label></td>
+							<td><span><textarea wicket:id="comments" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="pumps"><wicket:message key="pumps" /></label></td>
+							<td><span><input wicket:id="pumps" type="checkbox" /></span></td>
+							<td><label for="laundry"><wicket:message
+										key="laundry" /></label></td>
+							<td><span><input wicket:id="laundry" type="checkbox" /></span></td>
+							<td><label for="lubrication"><wicket:message
+										key="lubrication" /></label></td>
+							<td><span><input wicket:id="lubrication"
+									type="checkbox" /></span></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+			<p />
+			<p>
+				<input type="submit" wicket:id="closeOK" value="Αποθήκευση"></input>
+			</p>
+		</div>
+	</wicket:panel>
+</body>
+</html>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<wicket:panel>
+	<body>
+		<div>
+			<form wicket:id="form">
+				<fieldset>
+					<table>
+						<tr>
+							<td><label for="specialty"><wicket:message
+										key="specialty" /></label></td>
+							<td><span><input wicket:id="specialty" type="text" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="machinery"><wicket:message
+										key="machinery" /></label></td>
+							<td><span><textarea wicket:id="machinery" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="mainArea"><wicket:message
+										key="mainArea" /></label></td>
+							<td><span><input wicket:id="mainArea" type="text" />
+									<wicket:message key="mainAreaΜ2" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="helpArea"><wicket:message
+										key="helpArea" /></label></td>
+							<td><span><input wicket:id="helpArea" type="text" />
+									<wicket:message key="mainAreaΜ2" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="power"><wicket:message key="power" /></label></td>
+							<td><span><input wicket:id="power" type="text" /> <wicket:message
+										key="powerHp" /></span></td>
+						</tr>
+						<tr>
+							<td><label for="comments"><wicket:message
+										key="comments" /></label></td>
+							<td><span><textarea wicket:id="comments" /></span></td>
+						</tr>
+					</table>
+					<p />
+				</fieldset>
+				<p>
+					<input type="submit" wicket:id="closeOK" value="Αποθήκευση"></input>
+				</p>
+			</form>
+		</div>
+	</body>
+</wicket:panel>
+
+</html>
+

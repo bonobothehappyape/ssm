@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="poc-pu" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:jboss/datasources/ssmDS</jta-data-source>
+		<non-jta-data-source>java:jboss/datasources/ssmDSNonJTA</non-jta-data-source>
+		<class>gr.scram.ssm.model.core.impl.AbstractJPAEntity</class>
+		<class>gr.scram.ssm.model.TruckInfoData</class>
+		<class>gr.scram.ssm.model.Production</class>
+		<class>gr.scram.ssm.model.ProcedureManualOut</class>
+		<class>gr.scram.ssm.model.ProcedureManualIn</class>
+		<class>gr.scram.ssm.model.ProcedureManualEmbedded</class>
+		<class>gr.scram.ssm.model.Person</class>
+		<class>gr.scram.ssm.model.PassengerVehicleInfo</class>
+		<class>gr.scram.ssm.model.ParkingStation</class>
+		<class>gr.scram.ssm.model.Municipality</class>
+		<class>gr.scram.ssm.model.MinistryProcessing</class>
+		<class>gr.scram.ssm.model.Ministry</class>
+		<class>gr.scram.ssm.model.LegalEntity</class>
+		<class>gr.scram.ssm.model.LPGStation</class>
+		<class>gr.scram.ssm.model.GasStation</class>
+		<class>gr.scram.ssm.model.Garage</class>
+		<class>gr.scram.ssm.model.FireProcessing</class>
+		<class>gr.scram.ssm.model.EnvironmentProcessing</class>
+		<class>gr.scram.ssm.model.Decision</class>
+		<class>gr.scram.ssm.model.Contact</class>
+		<class>gr.scram.ssm.model.ConnectionProcessing</class>
+		<class>gr.scram.ssm.model.CertifiedPumpsInfo</class>
+		<class>gr.scram.ssm.model.CarWash</class>
+		<class>gr.scram.ssm.model.CarStation</class>
+		<class>gr.scram.ssm.model.Appeal</class>
+		<class>gr.scram.ssm.model.AdminProcessing</class>
+		<class>gr.scram.ssm.model.Address</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+			<property name="hibernate.max_fetch_depth" value="3" />
+			<property name="hibernate.format_sql" value="false" />
+			<!-- Disable the second-level cache -->
+			<property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
+			<property name="hibernate.id.new_generator_mappings" value="true" />
+			<property name="hibernate.transaction.jta.platform"	value="org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform" />
+		</properties>
+	</persistence-unit>
+</persistence>

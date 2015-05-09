@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="page-title">Περιγραφή Εγκατάστασης</entry>
+	<entry key="car-wash-tab-panel">Πλυντήριο Λιπαντήριο</entry>
+	<entry key="garage-tab-panel">Συνεργείο</entry>
+	<entry key="gas-station-tab-panel">Πρατήριο Υγρών καυσίμων</entry>
+	<entry key="lpg-station-tab-panel">Πρατήριο LPG</entry>
+	<entry key='car-station-tab-panel'>Σταθμός Αυτοκινήτων</entry>
+</properties>

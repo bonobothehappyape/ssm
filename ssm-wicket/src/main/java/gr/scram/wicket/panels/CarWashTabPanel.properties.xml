@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="wheelWashersTruck">Πλυστικά Τροχήλατα:</entry>
+	<entry key="wheelWashersNoTruck">Αριθμός:</entry>
+	<entry key="hydraulicLiftTruck">Ανυψωτικά Υδραυλικά:</entry>
+	<entry key="hydraulicLiftNoTruck">Αριθμός:</entry>
+	<entry key="automaticLaundrieTruck">Αυτόματα Πλυντήρια:</entry>
+	<entry key="automaticLaundrieNoTruck">Αριθμός:</entry>
+
+	<entry key="outdoorInfo.wheelWashers">Πλυστικά Τροχήλατα:</entry>
+	<entry key="outdoorInfo.wheelWashersNo">Αριθμός:</entry>
+	<entry key="outdoorInfo.hydraulicLift">Ανυψωτικά Υδραυλικά:</entry>
+	<entry key="outdoorInfo.hydraulicLiftNo">Αριθμός:</entry>
+	<entry key="outdoorInfo.automaticLaundrie">Αυτόματα Πλυντήρια:</entry>
+	<entry key="outdoorInfo.automaticLaundrieNo">Αριθμός:</entry>
+	<entry key="outdoorInfo.tunnel">Τούνελ:</entry>
+	<entry key="outdoorInfo.tunnelNo">Αριθμός:</entry>
+
+	<entry key="passengerVehicleData.airCompressor">Αεροσυμπιεστές:</entry>
+	<entry key="passengerVehicleData.airCompressorNo">Αριθμός:</entry>
+	<entry key="passengerVehicleData.electricLift2Weel">Ηλεκτρ. Δικολ. Ανυψωτικά:</entry>
+	<entry key="passengerVehicleData.electricLift2WeelNo">Αριθμός:</entry>
+	<entry key="passengerVehicleData.electricLift4Wheel">Ηλεκτρ. Τετρακ. Ανυψωτικά:</entry>
+	<entry key="passengerVehicleData.electricLift4WheelNo">Αριθμός:</entry>
+	<entry key="passengerVehicleData.tunnel">Τούνελ:</entry>
+	<entry key="passengerVehicleData.tunnelNo">Αριθμός:</entry>
+	<entry key="passengerVehicleData.selfServicePosition">Θέσεις Αυτοεξυπηρέτησης:</entry>
+	<entry key="passengerVehicleData.selfServicePositionNo">Αριθμός:</entry>
+</properties>

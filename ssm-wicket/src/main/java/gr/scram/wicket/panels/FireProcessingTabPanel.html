@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<body>
+	<wicket:panel>
+		<div>
+			<div wicket:id="cFeedback" />
+			<form wicket:id="form">
+				<table>
+					<tr>
+						<td><label for="studyApplication"><wicket:message
+									key="studyApplication" /></label></td>
+						<td><span><input wicket:id="studyApplication"
+								type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="studyDecision"><wicket:message
+									key="studyDecision" /></label></td>
+						<td><span><input wicket:id="studyDecision" type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="studyChangeApplication"><wicket:message
+									key="studyChangeApplication" /></label></td>
+						<td><span><input wicket:id="studyChangeApplication"
+								type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="studyPerson"><wicket:message
+									key="studyPerson" /></label></td>
+						<td><span><select wicket:id="studyPerson" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="certificateApplication"><wicket:message
+									key="certificateApplication" /></label></td>
+						<td><span><input wicket:id="certificateApplication"
+								type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="certificateGrant"><wicket:message
+									key="certificateGrant" /></label></td>
+						<td><span><input wicket:id="certificateGrant"
+								type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="autopsy"><wicket:message
+									key="autopsy" /></label></td>
+						<td><span><input wicket:id="autopsy" type="text" /></span></td>
+					</tr>
+					<tr>
+						<td><label for="autopsyPerson"><wicket:message
+									key="autopsyPerson" /></label></td>
+						<td><span><select wicket:id="autopsyPerson" /></span></td>
+					</tr>
+				</table>
+				<p>
+					<input type="submit" wicket:id="closeOK" value="Αποθήκευση"></input>
+				</p>
+			</form>
+		</div>
+	</wicket:panel>
+</body>
+</html>
+
