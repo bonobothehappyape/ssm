@@ -104,3 +104,9 @@ ssm-wicket/src/test/resources/keystore
 .idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml
 
 .idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml
+
+.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml
+
+.idea/libraries/Maven__org_apache_geronimo_components_geronimo_connector_3_1_1.xml
+
+*.xml
